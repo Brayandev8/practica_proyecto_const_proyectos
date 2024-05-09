@@ -1,4 +1,4 @@
-
+/* Estilos CSS */
 body {
     font-family: Arial, sans-serif;
     text-align: center;
@@ -34,4 +34,29 @@ p {
     margin: 20px 0;
     font-size: 30px;
     color: #f06292;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #8e44ad;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #6e3796;
 }

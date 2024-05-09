@@ -10,16 +10,26 @@
 </head>
 
 <body>
-    <div class="carta">
-        <h1>Feliz Día de las Madres</h1>
+    <h1>Feliz Día de las Madres</h1>
+    
+    <!-- Formulario para ingresar el nombre de la madre -->
+    <form id="nombreForm">
+        <input type="text" id="nombreMadre" placeholder="Ingrese el nombre de su madre" required>
+        <button type="submit">Enviar</button>
+    </form>
+    
+    <!-- Carta -->
+    <div class="carta" id="cartaMadre" style="display: none;">
+        <h1 id="titulo">Feliz Día de las Madres</h1>
         <div class="decoracion">🌸🌷💖</div>
-        <p>Querida mamá,</p>
+        <p id="saludo"></p>
         <p>En este día tan especial, quiero agradecerte por todo lo que has hecho por mí. Eres mi inspiración y mi guía. Gracias por tu amor incondicional y tu constante apoyo.</p>
         <p>Espero que este día esté lleno de alegría y felicidad para ti. Te amo con todo mi corazón.</p>
         <div class="decoracion">💖🌷🌸</div>
         <p class="firma">Con amor,</p>
-        <p class="firma">[Tu nombre]</p>
+        <p class="firma">[Equipo dinamita]</p>
     </div>
 </body>
 
+<script src="/javascript/animacion.js"></script>
 </html>
